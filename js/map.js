@@ -50,7 +50,7 @@ legend.onAdd = function (map) {
     div.innerHTML += "<b>"+'Type of Assistance'+"</b>"+"<br>";
     
     types = ['ownership', 'repair', 'preservation'];
-    labels = ['Home Ownership','Emergency Repairs','Preservation'];
+    labels = ['Homeownership','Critical Home Repairs','Home Preservation'];
     
     for (var i = 0; i < types.length; i++) {
         div.innerHTML +=
