@@ -39,3 +39,8 @@ h1 {
     height: 10px;
     margin-top: 8px;
 }
+.legend p {
+			font-size: 12px;
+			line-height: 18px;
+			margin: 0;
+		}

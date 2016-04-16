@@ -58,6 +58,9 @@ legend.onAdd = function (map) {
              (types[i] ? labels[i] + '<br>' : '+');
     }
     
+    //div.innerHTML += '<small>Violations/Sq. Mi.</small><br />';  
+	div.innerHTML += '<hr><i style="background: #ADB6B5"></i><p>Cleanup Projects</p>';
+
     return div;
 };
 
