@@ -22,7 +22,7 @@ $.getJSON("data/areas.geojson", function(data) {
         fillOpacity: 0.7,
         weight: 2,
         opacity: 1,
-        color: '#ADB6B5',
+        color: '#ccff33',
         dashArray: '3'
     });
 })
@@ -59,7 +59,7 @@ legend.onAdd = function (map) {
     }
     
     //div.innerHTML += '<small>Violations/Sq. Mi.</small><br />';  
-	div.innerHTML += '<hr><i style="background: #ADB6B5"></i><p>Cleanup Projects</p>';
+	div.innerHTML += '<hr><i style="background: #ccff33"></i><p>Cleanup Projects</p>';
 
     return div;
 };
