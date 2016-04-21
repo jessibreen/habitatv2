@@ -22,8 +22,9 @@ $.getJSON("data/areas.geojson", function(data) {
         fillOpacity: 0.7,
         weight: 2,
         opacity: 1,
-        color: '#ccff33',
-        dashArray: '3'
+        color: 'white',
+        dashArray: '3',
+        fillColor: '#ccff33'
     });
 })
 
