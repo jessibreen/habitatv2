@@ -43,6 +43,10 @@ $.getJSON("data/addresses.geojson", function(data) {
     }
 });
 
+var baseLayer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+subdomains: 'abcd',});
+
 var legend = L.control({position: 'bottomright'});
 
 legend.onAdd = function (map) {
@@ -66,14 +70,7 @@ legend.onAdd = function (map) {
 };
 
 	var map = L.map('map', {maxZoom: 17}).fitBounds(markerLayer.getBounds());
-	L.control.layers({
-	    'Positron': L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-subdomains: 'abcd',
-}).addTo(map);
-     //    'Terrain': new L.StamenTileLayer("terrain"),
-	    // 'Toner': new L.StamenTileLayer("toner"),
-     //    'Toner-Lite': new L.StamenTileLayer("toner-lite")}).addTo(map);
+    baseLayer.addTo(map);
     areaLayer.addTo(map);
 	markerLayer.addTo(map);
 	legend.addTo(map);
