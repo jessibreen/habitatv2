@@ -49,7 +49,7 @@ $.getJSON("data/addresses.geojson", function(data) {
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiamVzc2licmVlbiIsImEiOiJGNnlGVkRrIn0.Ar8l7jFbPYG3SWR-DrTyNQ';
 var baseLayer = new mapboxgl.Map({
-    container: 'map', // container id
+    //container: 'map', // container id
     style: 'mapbox://styles/jessibreen/cjdoo7oeu114l2sqdt6frosqh', //hosted style id
     //center: [-77.38, 39], // starting position
     //zoom: 3 // starting zoom
