@@ -43,9 +43,17 @@ $.getJSON("data/addresses.geojson", function(data) {
     }
 });
 
-var baseLayer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-subdomains: 'abcd',});
+// var baseLayer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+// attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+// subdomains: 'abcd',});
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiamVzc2licmVlbiIsImEiOiJGNnlGVkRrIn0.Ar8l7jFbPYG3SWR-DrTyNQ';
+var baseLayer = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/jessibreen/cjdoo7oeu114l2sqdt6frosqh', //hosted style id
+    //center: [-77.38, 39], // starting position
+    //zoom: 3 // starting zoom
+});
 
 var legend = L.control({position: 'bottomright'});
 
