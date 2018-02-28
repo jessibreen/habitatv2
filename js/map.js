@@ -33,14 +33,14 @@ $.getJSON("data/addresses.geojson", function(data) {
     markerLayer = L.geoJson(data, {
     pointToLayer: function (feature, latlng) {
         return L.circleMarker (latlng, style(feature));
-
-    },
-    onEachFeature: function(feature, layer) {            
+    }
+    // },
+    /*onEachFeature: function(feature, layer) {            
         var props = layer.feature.properties;
         
         layer.bindPopup("<b>"+props.address+"</b>"+"<br>"+"Type: "+props.type);
             
-    }
+    }*/
 });
 
 // var baseLayer = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
