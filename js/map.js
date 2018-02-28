@@ -77,6 +77,10 @@ legend.onAdd = function (map) {
     return div;
 };
 
+
+
+
+
 	var map = L.map('map', {maxZoom: 17}).fitBounds(markerLayer.getBounds());
     //baseLayer.addTo(map);
     areaLayer.addTo(map);
