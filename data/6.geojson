@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 6, "DISTRICT": 6, "REP": "ANGELA EVANS", "URL": "http:\/\/www.lexingtonky.gov\/council-district-6", "TELEPHONE": "(859) 258-3205", "EMAIL": "aevans@lexingtonky.gov", "last_edite": null, "SHAPE_Leng": 118389.54841800001, "SHAPE_Area": 270554381.39399999 }, "geometry": { "type": "Point", "coordinates": [ -84.437177343225216, 38.043772937816996 ] } }
+]
+}

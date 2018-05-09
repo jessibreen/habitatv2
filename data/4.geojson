@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 4, "DISTRICT": 4, "REP": "SUSAN LAMB", "URL": "http:\/\/www.lexingtonky.gov\/council-district-4", "TELEPHONE": "(859) 425-2287", "EMAIL": "slamb@lexingtonky.gov", "last_edite": null, "SHAPE_Leng": 71264.111126200005, "SHAPE_Area": 147868463.80899999 }, "geometry": { "type": "Point", "coordinates": [ -84.509594818246455, 37.986335015550488 ] } }
+]
+}

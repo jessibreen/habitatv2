@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 5, "DISTRICT": 5, "REP": "BILL FARMER JR", "URL": "http:\/\/www.lexingtonky.gov\/council-district-5", "TELEPHONE": "(859) 425-2283", "EMAIL": "bfarmer@lexingtonky.gov", "last_edite": null, "SHAPE_Leng": 77772.427225799998, "SHAPE_Area": 202549085.59 }, "geometry": { "type": "Point", "coordinates": [ -84.473095445537197, 38.017628951312162 ] } }
+]
+}

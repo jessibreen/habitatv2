@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 11, "DISTRICT": 11, "REP": "PEGGY HENSON", "URL": "http:\/\/www.lexingtonky.gov\/council-district-11", "TELEPHONE": "(859) 258-3201", "EMAIL": "phenson@lexingtonky.gov", "last_edite": null, "SHAPE_Leng": 60995.836184899999, "SHAPE_Area": 148257336.05899999 }, "geometry": { "type": "Point", "coordinates": [ -84.539905322265554, 38.039831776142435 ] } }
+]
+}

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 9, "DISTRICT": 9, "REP": "JENNIFER MOSSOTTI", "URL": "http:\/\/www.lexingtonky.gov\/council-district-9", "TELEPHONE": "(859) 258-3215", "EMAIL": "jmossotti@lexingtonky.gov", "last_edite": null, "SHAPE_Leng": 71151.0008734, "SHAPE_Area": 188319248.882 }, "geometry": { "type": "Point", "coordinates": [ -84.545554486197872, 37.983373547409947 ] } }
+]
+}

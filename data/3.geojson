@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 3, "DISTRICT": 3, "REP": "JAKE GIBBS", "URL": "http:\/\/www.lexingtonky.gov\/council-district-3", "TELEPHONE": "(859) 258-3464", "EMAIL": "jgibbs@lexingtonky.gov", "last_edite": null, "SHAPE_Leng": 66821.883928700001, "SHAPE_Area": 113679511.787 }, "geometry": { "type": "Point", "coordinates": [ -84.503495951997508, 38.031897718291368 ] } }
+]
+}
